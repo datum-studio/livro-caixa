@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.font-display {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+}
+
+.font-mono {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.stamp {
+  transform: rotate(-6deg);
+  border: 2px solid currentColor;
+  border-radius: 6px;
+  letter-spacing: 0.12em;
+}
+
+.ledger-row + .ledger-row {
+  border-top: 1px solid #dedad0;
+}
